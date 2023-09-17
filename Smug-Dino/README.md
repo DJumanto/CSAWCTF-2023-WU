@@ -4,11 +4,11 @@ Given a page where we can access home, hint, and flag? page
 
 if we access flag? page, we will be redirected to localhost:3009/flag.txt, which is not available. 
 
-![Alt text](image1.png) 
+![Alt text](imgs/image1.png) 
 
 From here, i believe what we need to do is a request smuggling, to confirm it, we can access the hint page and insert the server and it's version. Which give us a clue to a CVE report:
 
-![Alt text](image2.png)
+![Alt text](imgs/image2.png)
 
 So i open my burpsuite to intercept the request and modify it. We intercept the request, send it to the repeater and play with the request.
 
@@ -36,7 +36,7 @@ Host: localhost
 ```
 we'll get this response:
 
-![Alt text](image3.png) 
+![Alt text](imgs/image3.png) 
 
 <h3>Flag: <i>csawctf{d0nt_smuggl3_Fla6s_!}</i></h3>
 
