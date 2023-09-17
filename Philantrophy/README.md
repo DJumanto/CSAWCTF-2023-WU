@@ -33,5 +33,5 @@ looks like it was a credential. Now if we login using solidsnake@protonmail.com 
 ![Alt text](imgs/image5.png) 
 
 
-<h3>flag: <i>csawstc{K3pt_y0u_Wa1t1ng_HUh}</i></h3>
+<h3>Flag: <i>csawstc{K3pt_y0u_Wa1t1ng_HUh}</i></h3>
 
